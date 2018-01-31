@@ -1,0 +1,10 @@
+c:\users\nicks\source\repos\RustFurnaceSimulator\RustFurnaceSimulator\bin\Debug\RustFurnaceSimulator.exe.config
+c:\users\nicks\source\repos\RustFurnaceSimulator\RustFurnaceSimulator\bin\Debug\RustFurnaceSimulator.exe
+c:\users\nicks\source\repos\RustFurnaceSimulator\RustFurnaceSimulator\bin\Debug\RustFurnaceSimulator.pdb
+c:\users\nicks\source\repos\RustFurnaceSimulator\RustFurnaceSimulator\obj\Debug\RustFurnaceSimulator.RustFurnace.resources
+c:\users\nicks\source\repos\RustFurnaceSimulator\RustFurnaceSimulator\obj\Debug\RustFurnaceSimulator.Properties.Resources.resources
+c:\users\nicks\source\repos\RustFurnaceSimulator\RustFurnaceSimulator\obj\Debug\RustFurnaceSimulator.csproj.GenerateResource.Cache
+c:\users\nicks\source\repos\RustFurnaceSimulator\RustFurnaceSimulator\obj\Debug\RustFurnaceSimulator.csproj.CoreCompileInputs.cache
+c:\users\nicks\source\repos\RustFurnaceSimulator\RustFurnaceSimulator\obj\Debug\RustFurnaceSimulator.exe
+c:\users\nicks\source\repos\RustFurnaceSimulator\RustFurnaceSimulator\obj\Debug\RustFurnaceSimulator.pdb
+c:\users\nicks\source\repos\RustFurnaceSimulator\RustFurnaceSimulator\obj\Debug\RustFurnaceSimulator.csprojResolveAssemblyReference.cache
