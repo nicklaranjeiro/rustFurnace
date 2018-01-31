@@ -34,7 +34,8 @@ namespace RustFurnaceSimulator
             woodTrackBar.TickFrequency = 100;
             woodTrackBar.TickStyle = TickStyle.BottomRight;
         }
-
+        
+        //Makes it so that only numbers can be inputted
         private void oreAmount_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar))
@@ -42,7 +43,8 @@ namespace RustFurnaceSimulator
                 e.Handled = true;
             }
         }
-
+        
+        //Makes it so that only numbers can be inputted
         private void woodAmount_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar))
@@ -51,7 +53,7 @@ namespace RustFurnaceSimulator
             }
         }
 
-
+        //Sets the slider to the values above
         private void oreTrackBar_Scroll(object sender, EventArgs e)
         {
             oreAmount.Text = oreTrackBar.Value.ToString();
@@ -61,7 +63,8 @@ namespace RustFurnaceSimulator
         {
             woodAmount.Text = woodTrackBar.Value.ToString();
         }
-
+        
+        //Closes the program
         private void exitButton_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -83,7 +86,8 @@ namespace RustFurnaceSimulator
             highQuality.Visible = false;
             resultAmount.Text = "";
         }
-
+        
+        //Performs the calculation
         private void calculateButton_Click(object sender, EventArgs e)
         {
             var oreUsed = int.Parse(oreAmount.Text);
@@ -104,6 +108,7 @@ namespace RustFurnaceSimulator
                     mfCalculator = oreUsed;
                 }
                 
+                //Only displays the proper outcome from the ore selected
                 resultAmount.Text = "x " + (int)mfCalculator;
                 metalFragments.Visible = true;
                 sulfur.Visible = false;
@@ -120,6 +125,7 @@ namespace RustFurnaceSimulator
                 {
                     sCalculator = 1000;
                 }
+                //Only displays the proper outcome from the ore selected
                 resultAmount.Text = "x " + (int)sCalculator;
                 sulfur.Visible = true;
                 highQuality.Visible = false;
@@ -136,6 +142,7 @@ namespace RustFurnaceSimulator
                 {
                     hqCalculator = 100;
                 }
+                //Only displays the proper outcome from the ore selected
                 resultAmount.Text = "x " + (int)hqCalculator;
                 highQuality.Visible = true;
                 sulfur.Visible = false;
