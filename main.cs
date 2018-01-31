@@ -93,7 +93,7 @@ namespace RustFurnaceSimulator
             TimeSpan time = TimeSpan.FromSeconds(woodTimer);
             string str = time.ToString(@"hh\:mm\:ss\:fff");
             ttcValue.Text = str;
-            //FIX CALCULATIONS!!
+            
             if(MetalOre.Checked == true)
             {
                 var mfCalculator = (woodUsed/5)*3;
@@ -153,7 +153,7 @@ namespace RustFurnaceSimulator
         //5 wood burns 1 metal ore
         //2.5 wood burns 1 sulfur ore
         //10 wood burns 1 hq ore
-        // 300 and 619
+        
 
     }
 }
