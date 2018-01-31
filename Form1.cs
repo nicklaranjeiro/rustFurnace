@@ -21,7 +21,8 @@ namespace RustFurnaceSimulator
         {
 
         }
-
+        
+        //Sets beginning values
         private void RustFurnace_Load(object sender, EventArgs e)
         {
             oreTrackBar.Minimum = 0;
@@ -65,7 +66,8 @@ namespace RustFurnaceSimulator
         {
             this.Close();
         }
-
+        
+        //Resets everything
         private void clearButton_Click(object sender, EventArgs e)
         {
             MetalOre.Checked = true;
@@ -101,7 +103,7 @@ namespace RustFurnaceSimulator
                 {
                     mfCalculator = oreUsed;
                 }
-                //(((0.2 * oreSplit) * 3))*
+                
                 resultAmount.Text = "x " + (int)mfCalculator;
                 metalFragments.Visible = true;
                 sulfur.Visible = false;
